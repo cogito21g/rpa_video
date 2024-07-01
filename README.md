@@ -37,14 +37,23 @@ pip install pillow               # pillow 10.4.0
 
 ```
 project/
+├── rpa_video/
+│   │── __init__.py
+│   │── change_format.py
+│   │── create_video.py
+│   │── speech_to_text.py
+│   └──text_to_speech.py
 ├── main.py
-├── css/
-│   └── styles.css
 ├── .gitignore
 ├── README.md
 └── LICENSE
 ```
 
+- rpa_video/: 
+   - chage_format.py: 
+   - create_video.py: 
+   - speech_to_text.py: 
+   - text_to_speech.py: 
 - main.py: 프로그램을 실행하는 entrypoint입니다.
 - README.md: 프로젝트에 대한 설명과 설치 방법을 설명합니다.
 
